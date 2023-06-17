@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&display=swap');
+:root{
+    --COLOR1:#9A208C;
+    --COLOR2:#E11299;
+    --COLOR3:#FFEAEA;
+    --COLOR4:#F5C6EC;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    /* background-image: url(background.png); */
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+
+  }
+
+  .link{
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .link a{
+    text-decoration: none;
+    color: black;
+  }
+  main{
+    margin: 0 15em;
+    /* padding: 0 5em; */
+
+  }
+  header{
+    margin-bottom: 2em;
+  }
+
+  .wholeProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1em;
+    /* box-shadow: 2px 2px 2px 1px #E11299; */
+    /* border: 2px solid var(--COLOR2); */
+    border-radius: 2em;
+
+  }
+
+.productdescription{
+    margin: 1em;
+    padding: 1em;
+}
+.productdescription h1{
+    font-size: 2em;
+}
+.productdescription p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.image img{
+    border-radius: 3em;
+    width: 99%;
+
+}
+.title h3{
+    margin-top: 1em;
+
+}
+ 
+.price{
+    margin-top: 3em;
+} 
+.price h3 {
+    margin-top: 1em;
+}
+.price p{
+    margin-top: 1em;
+}
+.productButton button{
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #6f3f2d;
+    border-radius: 1em;
+    border-color:#6f3f2d;
+}
+
+.productButton a{
+    text-decoration: none;
+    color: white;
+}
+.productButton i{
+    padding: 0.5em;
+ }
+  
+.info p{
+    margin: 1em;
+    box-shadow: 2px 2px 2px 1px #6f3f2d;
+    text-align: center;
+    width: 99%;
+    border-radius: 2em;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+  
+ 
+

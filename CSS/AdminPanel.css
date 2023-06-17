@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/Assets/Photos/white.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+    
+}
+table, th, tr, td{
+    border: 2px solid palevioletred;
+    border-collapse: collapse;
+
+}
+table{
+    width: 90%;
+    color: #4169e1;
+    margin-left: 5em;
+}
+main .heading{
+    color: #4169e1;
+    text-align: center;
+}
+main input{
+    border: solid #4169e1;
+    border-radius: 2em;
+    font-size: large;
+}
+main input::placeholder{
+    text-align: center;
+    color: #4169e1;
+}
+main .heading a{
+    border: solid #4169e1;
+    border-radius: 1em;
+    color: #4169e1;
+    width: 50%;
+    padding:0 1em;
+}
+.heading2{
+    color: #4169e1;
+    margin-left: 3.5em;
+    padding-bottom: 0.3em;
+}
+.link a{
+    text-decoration: none;
+    color: #4169e1;
+    border: solid palevioletred;
+    padding: 0.2em;
+    margin-left: 5em;
+}
