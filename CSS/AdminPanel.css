@@ -14,9 +14,12 @@ table, th, tr, td{
 
 }
 table{
-    width: 90%;
+    width: 100%;
     color: #4169e1;
-    margin-left: 5em;
+    text-align: center;
+}
+main{
+    margin: 5em;
 }
 main .heading{
     color: #4169e1;
@@ -25,28 +28,65 @@ main .heading{
 main input{
     border: solid #4169e1;
     border-radius: 2em;
-    font-size: large;
+    font-size: larger;
+    width: 50%;
+    height: 2em;
+    padding: 0.7em;
 }
-main input::placeholder{
+ .heading input[type = submit]
+{
+    width: 10%;
+    height: 2em;
+    padding: 1em;
     text-align: center;
-    color: #4169e1;
+    
+
 }
+.heading form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
 main .heading a{
     border: solid #4169e1;
     border-radius: 1em;
     color: #4169e1;
     width: 50%;
-    padding:0 1em;
+    height: 2em;
+    padding: 0.7em;
+}
+.heading h3{
+    padding-bottom: 0.4em;
+    font-size: 3em;
 }
 .heading2{
     color: #4169e1;
-    margin-left: 3.5em;
     padding-bottom: 0.3em;
 }
 .link a{
     text-decoration: none;
     color: #4169e1;
     border: solid palevioletred;
-    padding: 0.2em;
-    margin-left: 5em;
+    padding: 0.4em;
+     
 }
+.link{
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav{
+    text-align: center;
+    padding-bottom: 2em;
+}
+.update-delete a{
+    text-decoration: none;
+    color: #4169e1;
+    border: solid powderblue;
+    padding:0 0.7em;
+}
+
